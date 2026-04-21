@@ -1,0 +1,13 @@
+body{
+    align-items: center;
+    padding: 200px 600px;
+}
+.lado1{
+    display: flex;
+    justify-content: space-between;
+
+}
+.lado2{
+    display: flex;
+    justify-content: space-between;
+}
