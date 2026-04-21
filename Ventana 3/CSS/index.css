@@ -1,0 +1,21 @@
+.barra-busqueda{
+    background-color: aqua;
+    display: flex;
+    justify-content: end;
+    padding: 50px;
+}
+.p{
+    justify-content: flex-end;
+    background-color: blue;
+}
+.c{
+    justify-content: center;
+    background-color: blueviolet;
+}
+.u{
+    justify-content: baseline;
+    background-color: aquamarine;
+}
+.s{
+    background-color: white;
+}
