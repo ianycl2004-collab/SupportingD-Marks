@@ -1,21 +1,29 @@
 .barra-busqueda{
-    background-color: aqua;
+    background-color: #1a1a1a;
     display: flex;
     justify-content: end;
     padding: 50px;
 }
-.p{
-    justify-content: flex-end;
-    background-color: blue;
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    background-color: dimgrey;
+    width: 250px;
+    height: 100vh;
+
 }
-.c{
-    justify-content: center;
-    background-color: blueviolet;
+.contenedor button{
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: fit-content;
 }
-.u{
-    justify-content: baseline;
-    background-color: aquamarine;
-}
-.s{
-    background-color: white;
-}
+
+
+
+
