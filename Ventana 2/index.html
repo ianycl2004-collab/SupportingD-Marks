@@ -1,45 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Wireframe</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="shortcut icon" href="/Ventana 1/Images/Log.ico" type="image/x-icon">
     <link rel="stylesheet" href="CSS/index.css">
 </head>
 <body>
+    <nav class="navbar">
+        <h1>Mi Sitio</h1>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
 
-<div class="todo">
+    <section class="form-container">
+        <h2>Contáctanos</h2>
+        <form id="formulario">
+            <input type="text" id="nombre" placeholder="Nombre" required>
+            <label for="">Nombre</label>
+            <input type="email" id="email" placeholder="Correo" required>
+            <label for="">Correo</label>
+            <textarea id="mensaje" placeholder="Mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="respuesta"></p>
+    </section>
 
-    <div class="barra">
-        <p>Logo</p>
-        <p>volver</p>
-    </div>
+    <footer>
+        <p>© 2026 Mi Sitio Web | Todos los derechos reservados</p>
+    </footer>
 
-    <div class="cuadro">
-
-        <div class="lado1">
-            <p>Imagen de estilo</p>
-            <p>(Proceso creativo)</p>
-
-            <p class="frase">"Conectando creadores con el mundo"</p>
-        </div>
-
-        <div class="lado2">
-            <p><b>Crea tu cuenta</b></p>
-
-            <input placeholder="Nombre">
-            <input placeholder="Correo">
-            <input placeholder="Contraseña">
-
-            <button>registrarse</button>
-
-            <p>o</p>
-
-            <button>Google</button>
-            <button>Apple</button>
-        </div>
-
-    </div>
-
-</div>
-
-</body>
-</html>

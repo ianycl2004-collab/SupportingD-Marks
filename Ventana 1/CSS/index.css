@@ -36,7 +36,14 @@ nav a {
     font-weight: 500;
     padding-right: 20px;
 }
-
+.Skeleton{
+    display: flex;
+    width: 400px;
+}
+.UltimaCena{
+    display: flex;
+    align-items: center;
+}
 section {
     padding: 60px 5%;
     text-align: center;
