@@ -19,13 +19,13 @@
     flex-direction: column;
     gap: 15px;
     padding: 20px;
-    background-color: dimgrey;
+    background-color:#333;
     width: 250px;
     height: 100vh;
 
 }
 .contenedor button{
-    background-color: #3498db;
+    background-color: black;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
@@ -35,6 +35,7 @@
 }
 section {
     display: flex; 
+    background-color:#333;
 }
 .seccion-imagenes {
     display: grid;
@@ -46,28 +47,39 @@ section {
     width: calc(100% - 300px); 
 }
 .tarjeta {
-    background-color: #ffffff;
-    border: 1px solid #ddd;
+    background-color: black;
+    border: 1px solid white;
     box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
     border-radius: 8px;
     padding: 10px;
+    
 }
 
 
 .tarjeta img {
     width: 100%;
     height: 150px;
-    object-fit: cover; /* Para que la foto no se estire */
+    object-fit: cover; 
     border-radius: 4px;
+    transition: 0.3s;
+}
+.tarjeta:hover img{
+    transform:scale(1.8) ;
 }
 
 .descripcion p {
     margin: 5px 0;
     font-family: Arial, sans-serif;
     font-size: 14px;
-    color: #333;
+    color: white;
 }
-
+footer{
+    text-align: center;
+    padding: 40px;
+    font-size: 0.8rem;
+    color:white;
+    background-color: #1a1a1a;
+}
 
 
 
