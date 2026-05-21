@@ -8,7 +8,7 @@
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
 
-/* Control del tamaño del logo */
+
 .logo-imagen {
   height: 45px;                   
   width: auto;
@@ -92,7 +92,7 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
 }
 
-/* Efecto llamativo al pasar el mouse por encima (Hover) */
+
 .mi-boton:hover {
   background-color: #00adb5; 
   border-color: #00adb5;
@@ -101,7 +101,7 @@
   box-shadow: 0 6px 12px rgba(0, 173, 181, 0.4);
 }
 
-/* Efecto al hacer clic */
+
 .mi-boton:active {
   transform: translateY(1px);
 }
