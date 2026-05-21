@@ -1,3 +1,59 @@
+.encabezado-principal {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;           
+  background-color: #121212;     
+  padding: 15px 40px;            
+  border-bottom: 1px solid #252525; 
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Control del tamaño del logo */
+.logo-imagen {
+  height: 45px;                   
+  width: auto;
+  filter: drop-shadow(0 2px 8px rgba(255, 255, 255, 0.1)); 
+}
+
+
+.contenedor-buscar {
+  display: flex;
+  gap: 10px;                      
+}
+
+
+.caja-buscar {
+  background-color: #1a1a1a;      
+  color: #ffffff;                 
+  border: 1px solid #333333;      
+  border-radius: 6px;             
+  padding: 8px 16px;
+  font-size: 14px;
+  outline: none;                 
+  transition: all 0.3s ease;
+  width: 220px;
+}
+
+
+.boton-buscar {
+  background-color: #ffffff;     
+  color: #000000;                 
+  border: none;
+  border-radius: 6px;
+  padding: 8px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;      
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+
+.boton-buscar:hover {
+  background-color: #00adb5;     
+  color: #000000;
+  transform: translateY(-1px);  
+}
 .barra-busqueda{
     background-color: #1a1a1a;
     display: flex;
@@ -13,6 +69,50 @@
 .grupo-busqueda{
     display: flex;
     gap: 10px;
+}
+.contenedor-botones {
+  display: flex;
+  flex-direction: column; 
+  gap: 100px;              
+  padding: 20px;
+  max-width: 200px;    
+}
+
+
+.mi-boton {
+  background-color: #1e1e1e; 
+  color: #ffffff;            
+  border: 2px solid #333333; 
+  border-radius: 8px;        
+  padding: 12px 24px;        
+  font-size: 16px;         
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
+}
+
+/* Efecto llamativo al pasar el mouse por encima (Hover) */
+.mi-boton:hover {
+  background-color: #00adb5; 
+  border-color: #00adb5;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 173, 181, 0.4);
+}
+
+/* Efecto al hacer clic */
+.mi-boton:active {
+  transform: translateY(1px);
+}
+.mensaje-motivacional {
+  color: #a0a0a0;         
+  font-size: 14px;        
+  font-style: italic;      
+  text-align: center;      
+  margin-top: 20px;        
+  line-height: 2.5;       
+  max-width: 180px;        
 }
 .contenedor{
     display: flex;
